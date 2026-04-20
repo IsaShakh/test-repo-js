@@ -5,7 +5,7 @@ export function Form() {
   return (
     <form onSubmit={(e) => e.preventDefault()}>
       <input value={value} onChange={(e) => setValue(e.target.value)} />
-      <button type="submit">Send</button>
+      <button type="submit">Submit</button>
     </form>
   )
 }
