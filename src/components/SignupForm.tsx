@@ -5,7 +5,7 @@ export function SignupForm() {
         Email
         <input type="email" placeholder="you@example.com" />
       </label>
-      <button type="submit">Sign up</button>
+      <button type="submit">Подтвердить</button>
     </form>
   )
 }
