@@ -59,7 +59,7 @@ function App() {
         <p>Login ok: {String(loginResult.ok)}</p>
         <p>Cart items: {cart.length}</p>
         <p>Demo price: {price}</p>
-        <button onClick={() => setCount(count + 1)}>Counter: {count}</button>
+        <button className="counter" onClick={() => setCount(count + 1)}>Counter: {count}</button>
       </footer>
     </>
   )
